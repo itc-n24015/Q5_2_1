@@ -1,8 +1,8 @@
-tack = []
-stack.append(1)
-print('stack:', stack)
-stack.append(2)
-print('stack:', stack)
-print('pop 1 value:', stack.pop())
-print('pop 2 value:', stack.pop())
-print('stack:', stack)
+num = [[1, 2, 3, 4, 5],[6, 7, 8, 9, 10]]
+
+col = [row[2] for row in num]
+print(col)
+
+3 [3, 8]
+
+
